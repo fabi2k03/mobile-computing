@@ -13,6 +13,10 @@
 		FFE9280B274672290090F640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE92809274672290090F640 /* Main.storyboard */; };
 		FFE9280D2746722A0090F640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE9280C2746722A0090F640 /* Assets.xcassets */; };
 		FFE928102746722A0090F640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE9280E2746722A0090F640 /* LaunchScreen.storyboard */; };
+		FFE92818274676190090F640 /* NumberGuessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE92817274676190090F640 /* NumberGuessModel.swift */; };
+		FFE9281A274679A10090F640 /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE92819274679A10090F640 /* happy.png */; };
+		FFE9281D274679B10090F640 /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE9281B274679B10090F640 /* sad.png */; };
+		FFE9281E274679B10090F640 /* neutral.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE9281C274679B10090F640 /* neutral.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		FFE9280C2746722A0090F640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFE9280F2746722A0090F640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFE928112746722A0090F640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE92817274676190090F640 /* NumberGuessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGuessModel.swift; sourceTree = "<group>"; };
+		FFE92819274679A10090F640 /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = happy.png; path = ../../../../../Desktop/NumberGuesser_Final_Version/NumberGuesser_2/NumberGuesser_2/happy.png; sourceTree = "<group>"; };
+		FFE9281B274679B10090F640 /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sad.png; path = ../../../../../Desktop/NumberGuesser_Final_Version/NumberGuesser_2/NumberGuesser_2/sad.png; sourceTree = "<group>"; };
+		FFE9281C274679B10090F640 /* neutral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = neutral.png; path = ../../../../../Desktop/NumberGuesser_Final_Version/NumberGuesser_2/NumberGuesser_2/neutral.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,9 @@
 		FFE92802274672290090F640 /* Kopf_NumberGuess */ = {
 			isa = PBXGroup;
 			children = (
+				FFE92819274679A10090F640 /* happy.png */,
+				FFE9281C274679B10090F640 /* neutral.png */,
+				FFE9281B274679B10090F640 /* sad.png */,
 				FFE92803274672290090F640 /* AppDelegate.swift */,
 				FFE92805274672290090F640 /* SceneDelegate.swift */,
 				FFE92807274672290090F640 /* ViewController.swift */,
@@ -63,6 +74,7 @@
 				FFE9280C2746722A0090F640 /* Assets.xcassets */,
 				FFE9280E2746722A0090F640 /* LaunchScreen.storyboard */,
 				FFE928112746722A0090F640 /* Info.plist */,
+				FFE92817274676190090F640 /* NumberGuessModel.swift */,
 			);
 			path = Kopf_NumberGuess;
 			sourceTree = "<group>";
@@ -127,7 +139,10 @@
 			files = (
 				FFE928102746722A0090F640 /* LaunchScreen.storyboard in Resources */,
 				FFE9280D2746722A0090F640 /* Assets.xcassets in Resources */,
+				FFE9281D274679B10090F640 /* sad.png in Resources */,
+				FFE9281A274679A10090F640 /* happy.png in Resources */,
 				FFE9280B274672290090F640 /* Main.storyboard in Resources */,
+				FFE9281E274679B10090F640 /* neutral.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +155,7 @@
 			files = (
 				FFE92808274672290090F640 /* ViewController.swift in Sources */,
 				FFE92804274672290090F640 /* AppDelegate.swift in Sources */,
+				FFE92818274676190090F640 /* NumberGuessModel.swift in Sources */,
 				FFE92806274672290090F640 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
